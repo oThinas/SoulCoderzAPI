@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BEVtzEtK2Z6ZbclLRWtFdzitQiKAVQl3LEih3g8V8riJjZzfhvDQAGP3XAKut5CfrYJHJRAwpnNF0GYS1lIvkw==",
+  "dgSpecHash": "iZEVSgxQKS27eUBreOsgMTXMgjilBwsdaEFVm7ajwwzsHHyMABF0yi+2v4CzBys0Yn1FqCqdX2pkdi1TFc+4+g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\PopDev\\Desenvolvimento\\study\\fiap\\cp\\SoulCoderzAPI\\SoulCoderzAPI.csproj",
+  "projectFilePath": "C:\\Users\\PopDev\\Desenvolvimento\\study\\c#\\dotnet\\SoulCoderzAPI\\SoulCoderzAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PopDev\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\PopDev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\PopDev\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
     "C:\\Users\\PopDev\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\PopDev\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\PopDev\\.nuget\\packages\\openai-dotnet\\7.2.3\\openai-dotnet.7.2.3.nupkg.sha512",
     "C:\\Users\\PopDev\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\PopDev\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\PopDev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

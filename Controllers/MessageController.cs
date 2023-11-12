@@ -1,5 +1,8 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using OpenAI;
+using OpenAI.Chat;
+using OpenAI.Models;
 using SoulCoderzAPI.Data;
 using SoulCoderzAPI.Data.DTOs;
 using SoulCoderzAPI.Models;
@@ -20,9 +23,9 @@ public class MessageController : ControllerBase
   }
   
   [HttpPost]
-  public IActionResult SendMessage([FromBody] CreateMessageDto userDto)
+  public async Task<IActionResult> SendMessageAsync([FromBody] CreateMessageDto userDto)
   {
-    Message message = _mapper.Map<Message>(userDto);
+    Models.Message message = _mapper.Map<Models.Message>(userDto);
 
     _context.Messages.Add(message);
 
@@ -30,9 +33,13 @@ public class MessageController : ControllerBase
       Aqui ficaria a lógica para se comunicar com a OpenAI e retornar a resposta do assistente virtual.
       Porém, ninguém na equipe possui créditos para utilizar a API, então a resposta está fixada.
       Para criar uma conta com créditos é necessário um número de telefone, então não foi possível fazer essa integração.
+
+      var api = new OpenAIClient("sk-apiKey");
+      var chatRequest = new ChatRequest(message, Model.Davinci);
+      var result = await api.ChatEndpoint.GetCompletionAsync(chatRequest);
      */
 
-    Message apiMessage = new Message
+    Models.Message apiMessage = new Models.Message
     {
       Role = Enums.RoleType.ASSISTANT,
       Content = "Você está falando com a API do SoulCoderz! Seus créditos estão zerados :("
