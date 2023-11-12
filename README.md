@@ -7,5 +7,5 @@ Membros:
 - Thiago Prado RM94426
 
 O arquivo solicitado na primeira parte da entrega está nesse repositório também.
-Link do vídeo: https://drive.google.com/file/d/1AQQqx6hYisgJ_zIHd3N-TPntDBd0P0g_/view?usp=sharing
 
+Link do vídeo: https://drive.google.com/file/d/1AQQqx6hYisgJ_zIHd3N-TPntDBd0P0g_/view?usp=sharing
