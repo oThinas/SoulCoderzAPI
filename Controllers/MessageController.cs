@@ -23,9 +23,9 @@ public class MessageController : ControllerBase
   }
   
   [HttpPost]
-  public async Task<IActionResult> SendMessageAsync([FromBody] CreateMessageDto userDto)
+  public async Task<IActionResult> SendMessageAsync([FromBody] CreateMessageDto messageDto)
   {
-    Models.Message message = _mapper.Map<Models.Message>(userDto);
+    Models.Message message = _mapper.Map<Models.Message>(messageDto);
 
     _context.Messages.Add(message);
 

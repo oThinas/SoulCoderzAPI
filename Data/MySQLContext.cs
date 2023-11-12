@@ -10,4 +10,5 @@ public class MySQLContext : DbContext
 
   public DbSet<User> Users { get; set; }
   public DbSet<Message> Messages { get; set; }
+  public DbSet<Feedback> Feedbacks { get; set; }
 }
